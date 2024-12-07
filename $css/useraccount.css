@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: 'Popins', sans-serif;
+    background-image: url(/1.image/user-background1.avif);
+    object-fit: cover;
+    object-position: center;
+}
+
+.form-container{
+    width: 50%;
+    height: auto;
+    margin: 5%  auto;
+    border-radius: 30px;
+    /* border: 1px solid gray; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), transparent);
+    transition: all 1s ease;
+}
+.form-container h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    color: yellow;
+    /* border: 1px solid gray; */
+    transition: all 1s ease;
+}
+.userform{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s ease;
+    /* border: 1px solid gray; */
+}
+.userform label{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    transition: all 1s ease;
+}
+.userform input{
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    transition: all 1s ease;
+}
+.submit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: all 1s ease;
+    /* border: 1px solid gray; */
+}
+.submit button{
+    padding: 6px 28px;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.submit button:hover{
+    background-color: orangered;
+    transform: scale(1.1);
+}
+div .a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease;
+}
+.submit .linked{
+    font-size: 22px;
+    font-weight: 300;
+    color: yellow;
+    transition: all 1s ease;
+}
+.social-link{
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    transition: all 1s ease;
+    /* border: 1px solid gray; */
+}
+.social-link button{
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.social-link button:hover{
+    i{
+        transform: scale(1.1);
+    }
+}
+.social-link i{
+    margin-right: 6px;
+    transition: all 1s ease;
+}
+@media (max-width: 575px) { 
+    .form-container h2{
+        font-size: 18px;
+        padding: 18px;
+    }
+    .userform label{
+        font-size: 10px;
+    }
+    .userform input{
+        font-size: 10px;
+        padding: 5x;
+    }
+    .submit{
+        padding-top: 15px;
+        padding-left: 0;
+        padding-bottom: 15px;
+        padding-right: 0;
+        justify-content: space-between;
+    }
+    .submit button{
+        padding: 4px 14px;
+        font-size: 8px;
+        /* border: 1px solid gray; */
+    }
+    .submit .linked{
+        font-size: 7px;
+    }
+    .social-link{
+        justify-content: space-between;
+        /* border: 1px solid gray; */
+    }
+    .social-link button{
+        padding: 5px 12px;
+        font-size: 7px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .form-container h2{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .userform label{
+        font-size: 10px;
+    }
+    .userform input{
+        font-size: 10px;
+        padding: 6px;
+    }
+    .submit{
+        padding-top: 15px;
+        padding-left: 0;
+        padding-bottom: 15px;
+        padding-right: 0;
+        justify-content: space-between;
+    }
+    .submit button{
+        padding: 5px 20px;
+        font-size: 10px;
+        /* border: 1px solid gray; */
+    }
+    .submit .linked{
+        font-size: 10px;
+    }
+    .social-link{
+        justify-content: space-between;
+        /* border: 1px solid gray; */
+    }
+    .social-link button{
+        padding: 5px 12px;
+        font-size: 9px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .form-container h2{
+        font-size: 25px;
+        padding: 25px;
+    }
+    .userform label{
+        font-size: 12px;
+    }
+    .userform input{
+        font-size: 11px;
+        padding: 6px;
+    }
+    .submit{
+        padding-top: 20px;
+        padding-left: 0;
+        padding-bottom: 20px;
+        padding-right: 0;
+        justify-content: space-between;
+    }
+    .submit button{
+        padding: 5px 25px;
+        font-size: 12px;
+        /* border: 1px solid gray; */
+    }
+    .submit .linked{
+        font-size: 12px;
+    }
+    .social-link{
+        justify-content: space-between;
+        /* border: 1px solid gray; */
+    }
+    .social-link button{
+        padding: 6px 14px;
+        font-size: 10px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1248px) {
+    .form-container h2{
+        font-size: 40px;
+        padding: 35px;
+    }
+    .userform label{
+        font-size: 16px;
+    }
+    .userform input{
+        font-size: 14px;
+        padding: 7px;
+    }
+    .submit{
+        padding-top: 25px;
+        padding-left: 0;
+        padding-bottom: 25px;
+        padding-right: 0;
+        justify-content: space-between;
+    }
+    .submit button{
+        padding: 5px 25px;
+        font-size: 16px;
+        /* border: 1px solid gray; */
+    }
+    .submit .linked{
+        font-size: 16px;
+    }
+    .social-link{
+        justify-content: space-between;
+        /* border: 1px solid gray; */
+    }
+    .social-link button{
+        padding: 8px 24px;
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+}
+ /*end responsive page */

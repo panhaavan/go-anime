@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="/$css/useraccount.css">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- google fonts Poppins and Pacifico -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    </head>
+<body>
+    <div class="form-container">
+        <h2>SIGN UP</h2>
+        <form class="userform">
+            <label for="text">Full Name:</label>
+            <input type="text" placeholder="Full Name" required>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Email" required>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password" required>
+            <div class="submit">
+                <button type="submit"><a class="a" href="/$html/login.html">SIGN UP</a></button>
+                <a class="linked" href="/$html/login.html">Already have account?</a>
+            </div>
+            
+        </form>
+        <div class="social-link">
+            <button class="facebook" onclick="signupWithFacebook()"><a class="a" href="#"><i class="fa-brands fa-facebook"></i>Sign up with Facebook</a></button>
+            <button class="google" onclick="signupWithGoogle()"><a class="a" href="#"><i class="fa-brands fa-google"></i>Sign up with Google</a></button>
+        </div>
+    </div> 
+    <script src="/$script/script.js"></script>
+</body>
+</html>

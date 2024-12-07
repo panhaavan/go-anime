@@ -1,0 +1,83 @@
+.privacypolicy-container{
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+    /* border: 1px solid gray; */
+}
+.privacy-policy{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    transition: all 1s ease;
+    /* border: 1px solid gray; */
+}
+.privacy-policy li,span{
+    list-style: inside;
+    transition: all 1s ease;
+}
+.line{
+    margin: 50px 40px;
+    border: .7px solid gray;
+    transition: all 1s ease;
+}
+.pp-block{
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+}
+.ul1 .h3{
+    font-size: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    transition: all 1s ease;
+}
+.ul1 li{
+    margin: 10px;  
+    transition: all 1s ease;
+}
+.ul2{
+    margin-left: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    transition: all 1s ease;
+}
+.ul2 li{
+    margin: 10px; 
+    transition: all 1s ease; 
+}
+@media (max-width: 575px) { 
+    .ul1 .h3{
+        font-size: 11px;
+    }
+    .ul1 p, a, span, li{
+        font-size: 8px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+    .ul1 .h3{
+        font-size: 14px;
+    }
+    .ul1 p, a, span, li{
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .ul1 .h3{
+        font-size: 16px;
+    }
+    .ul1 p, a, span, li{
+        font-size: 14px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1248px) {
+    .ul1 .h3{
+        font-size: 18px;
+    }
+    .ul1 p, a, span, li{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1249px) {
+    
+}

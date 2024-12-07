@@ -1,0 +1,47 @@
+.help-container{
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+    /* border: 1px solid gray; */
+}
+.help-center{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    transition: all 1s ease;
+    /* border: 1px solid gray; */
+}
+.help-center h1{
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    padding: 40px 0px 60px 0px;
+    transition: all 1s ease;
+}
+.help-center p{
+    font-size: 14px;
+    padding: 0px 0px 6px 0px;
+    transition: all 1s ease;
+}
+input{
+     padding: 6px;
+     border: none;
+     border-radius: 4px;
+     transition: all 1s ease;
+}
+button{
+    padding: 6px;
+    border: none;
+    background-color: yellow;
+    border-radius: 4px;
+    transition: all 1s ease;
+}
+.faq h2{
+    padding: 8px 0px;
+    transition: all 1s ease;
+}
+.contact-form label{
+    padding-left: 10px;
+    transition: all 1s ease;
+}
